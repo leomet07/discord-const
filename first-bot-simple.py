@@ -8,7 +8,7 @@ channel_to_target = "lennys-bot"
 with open("key.txt","r") as file:
 	#read first line
 	for line in file:
-		KEY = line
+		KEY = line.strip()
 		#print(line)
 		break
 
